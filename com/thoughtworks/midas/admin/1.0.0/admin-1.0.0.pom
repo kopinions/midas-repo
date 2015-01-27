@@ -13,12 +13,6 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.thoughtworks.midas</groupId>
-      <artifactId>core</artifactId>
-      <version>1.0.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>javax.ws.rs</groupId>
       <artifactId>javax.ws.rs-api</artifactId>
       <version>2.0</version>
@@ -29,12 +23,6 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.thoughtworks.midas</groupId>
-      <artifactId>api</artifactId>
-      <version>1.0.0</version>
-      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.inject.extensions</groupId>
@@ -55,14 +43,8 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.inject.extensions</groupId>
-      <artifactId>guice-multibindings</artifactId>
-      <version>3.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.thoughtworks.midas</groupId>
-      <artifactId>persistence</artifactId>
+      <artifactId>core</artifactId>
       <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
@@ -71,6 +53,12 @@
       <artifactId>api</artifactId>
       <version>1.0.0</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.inject.extensions</groupId>
+      <artifactId>guice-multibindings</artifactId>
+      <version>3.0</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.glassfish.jersey.containers</groupId>
@@ -94,6 +82,18 @@
       <groupId>org.glassfish.jersey.media</groupId>
       <artifactId>jersey-media-json-jackson</artifactId>
       <version>2.13</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.thoughtworks.midas</groupId>
+      <artifactId>persistence</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.thoughtworks.midas</groupId>
+      <artifactId>api</artifactId>
+      <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
