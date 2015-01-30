@@ -7,6 +7,10 @@
     <versions>
       <version>1.0.0</version>
     </versions>
+<<<<<<< HEAD
     <lastUpdated>20150129073619</lastUpdated>
+=======
+    <lastUpdated>20150130044217</lastUpdated>
+>>>>>>> update core
   </versioning>
 </metadata>
