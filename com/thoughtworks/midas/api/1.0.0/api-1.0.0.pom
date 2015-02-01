@@ -25,12 +25,6 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.thoughtworks.midas</groupId>
-      <artifactId>core</artifactId>
-      <version>1.0.0</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
       <groupId>com.google.inject.extensions</groupId>
       <artifactId>guice-servlet</artifactId>
       <version>3.0</version>
@@ -49,15 +43,15 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.inject.extensions</groupId>
-      <artifactId>guice-multibindings</artifactId>
-      <version>3.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.thoughtworks.midas</groupId>
       <artifactId>core</artifactId>
       <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.inject.extensions</groupId>
+      <artifactId>guice-multibindings</artifactId>
+      <version>3.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -89,6 +83,12 @@
       <artifactId>persistence</artifactId>
       <version>1.0.0</version>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.thoughtworks.midas</groupId>
+      <artifactId>core</artifactId>
+      <version>1.0.0</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.sonatype.sisu.inject</groupId>

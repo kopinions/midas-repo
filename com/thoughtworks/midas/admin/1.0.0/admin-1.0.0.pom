@@ -25,12 +25,6 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.thoughtworks.midas</groupId>
-      <artifactId>core</artifactId>
-      <version>1.0.0</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
       <groupId>com.google.inject.extensions</groupId>
       <artifactId>guice-servlet</artifactId>
       <version>3.0</version>
@@ -50,20 +44,20 @@
     </dependency>
     <dependency>
       <groupId>com.thoughtworks.midas</groupId>
-      <artifactId>api</artifactId>
+      <artifactId>core</artifactId>
       <version>1.0.0</version>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.thoughtworks.midas</groupId>
+      <artifactId>api</artifactId>
+      <version>1.0.0</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>com.google.inject.extensions</groupId>
       <artifactId>guice-multibindings</artifactId>
       <version>3.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.thoughtworks.midas</groupId>
-      <artifactId>core</artifactId>
-      <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -99,6 +93,12 @@
     <dependency>
       <groupId>com.thoughtworks.midas</groupId>
       <artifactId>api</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.thoughtworks.midas</groupId>
+      <artifactId>core</artifactId>
       <version>1.0.0</version>
       <scope>test</scope>
     </dependency>
